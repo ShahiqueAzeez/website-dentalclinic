@@ -9,7 +9,7 @@
  * ────────────────────────────────────────────────────────────────────────────
  */
 (function () {
-  var WHATSAPP_NUMBER = "REPLACE_WITH_CLINIC_WHATSAPP_NUMBER"; // TODO: clinic's real WhatsApp number
+  var WHATSAPP_NUMBER = "919500470808"; // +91 95004 70808
   var MESSAGE = "Hello, I would like to enquire about a dental appointment.";
 
   // Avoid duplicates if the script is included twice.
