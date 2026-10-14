@@ -4,7 +4,7 @@
  * Until it is set, the form still opens WhatsApp but nothing is saved.
  */
 (function () {
-  var LEADS_SHEET_URL = "REPLACE_WITH_APPS_SCRIPT_WEB_APP_URL"; // TODO
+  var LEADS_SHEET_URL = "https://script.google.com/macros/s/AKfycbwcZ6iKbXR4M5BjTRXL7WSepic0IEDoELIQh2ENDjYVZSvC6z24VQOU1ICEo_3ytkY6lQ/exec";
 
   window.saveLead = function (name, phone) {
     if (!/^https:\/\/script\.google\.com\/macros\/s\/.+\/exec$/.test(LEADS_SHEET_URL)) return;
