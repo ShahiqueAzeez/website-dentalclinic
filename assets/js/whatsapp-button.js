@@ -22,8 +22,7 @@
     : "#";
 
   var css =
-    // Sits directly above the voice-booking orb (.mola-voice-root, bottom-right)
-    "#wa-float{position:fixed;right:29px;bottom:106px;z-index:2147482990;width:52px;height:52px;" +
+    "#wa-float{position:fixed;right:22px;bottom:24px;z-index:2147482990;width:56px;height:56px;" +
     "display:flex;align-items:center;justify-content:center;border-radius:50%;background:#25d366;" +
     "color:#fff;box-shadow:0 8px 24px rgba(1,31,35,.32);text-decoration:none;" +
     "transition:transform .18s ease,box-shadow .18s ease}" +
@@ -31,9 +30,7 @@
     "#wa-float:focus-visible{outline:3px solid #24a3b1;outline-offset:4px}" +
     "#wa-float svg{width:28px;height:28px;display:block}" +
     "#wa-float[data-configured=false]{opacity:.55;cursor:not-allowed}" +
-    // Hide while the voice panel is open so it never covers its controls
-    "body:has(.mola-panel) #wa-float{display:none}" +
-    "@media (max-width:640px){#wa-float{right:18px;bottom:86px;width:48px;height:48px}" +
+    "@media (max-width:640px){#wa-float{right:14px;bottom:16px;width:52px;height:52px}" +
     "#wa-float svg{width:26px;height:26px}}" +
     "@media print{#wa-float{display:none}}";
 
